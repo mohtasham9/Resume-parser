@@ -221,10 +221,10 @@ if __name__ == "__main__":
     else:
         print("No experience information found.")
     print("=" * 50)
-    # resume_data_json = parser.to_json()
+    resume_data_json = parser.to_json()
 
-    # with open("C:\\Users\\Mohtasham\\Downloads\\GPTResParser\\resume_data.json", "w") as json_file:
-    #     json_file.write(resume_data_json)
+    with open("resume_data.json", "w") as json_file:
+        json_file.write(resume_data_json)
 
-    # #print("Resume data has been saved to 'resume_data.json'")
+    print("Resume data has been saved to 'resume_data.json'")
     
